@@ -1,0 +1,71 @@
+.max_section6{width: 100%;}
+.min_section6{width: 1080px;margin: 0 auto;padding-bottom: 78px;padding-top: 42px;display: flex;}
+.section6{width: 23%;padding-right: 2%;border-right:1px solid #bababa;}
+.section6 li{width: 100%;height: 77px;border-bottom:3px solid  transparent;}
+.section6 li a{width: 67%;height: 77px;line-height: 77px;text-align: left;font-size: 20px;color: black;display: block;
+padding-left: 33%;}
+.section6 li:nth-of-type(3){border-bottom:3px solid  #fa9634;}
+.section6 li:hover{border-bottom:3px solid #FA9634 ;}
+.section6 li:nth-of-type(1) a{background: url(../img/service_03.jpg) no-repeat 11% center;}
+.section6 li:nth-of-type(2) a{background: url(../img/service_05.jpg) no-repeat 11% center;}
+.section6 li:nth-of-type(3) a{background: url(../img/service_09.jpg) no-repeat 11% center;}
+.section6 li:nth-of-type(4) a{background: url(../img/service_10.jpg) no-repeat 11% center;}
+
+.section6 li:nth-of-type(2):hover a{background: url(../img/service_06.jpg) no-repeat 11% center;}
+.section6 li:nth-of-type(1):hover a{background: url(../img/service_04.jpg) no-repeat 11% center;}
+.section6 li:nth-of-type(4):hover a{background: url(../img/service_11.jpg) no-repeat 11% center;}
+.figure6{width: 67%;padding-left: 4%;padding-right: 4%;}
+.figure6 h3{line-height: 49px;text-align: left;font-size: 20px;color: #fa9634;}
+.figure6 p{line-height: 30px;text-align: left;font-size: 16px;color: black;}
+.figure6 p span{font-weight: bold;font-size: 18px;margin-right: 5%;}
+.figure6 img{display: block;height: 140px;}
+@media only screen and (min-width:761px ) and (max-width:1080px) {
+	.min_section6{width: 92%;margin: 0 auto;}
+	.section6{width: 27%;}
+	.figure6{width: 63%;padding-left: 2%;padding-right: 2%;}
+	.figure6 img{display: block;height: 120px;width: 100%;}
+	.section6 li a span{display: none;}
+	.figure6 p{text-indent: 32px;}
+}
+@media only screen and (min-width:480px ) and (max-width:760px) {
+	.min_section6{width: 92%;margin: 0 auto;display: flex;flex-wrap: wrap;padding-top: 0;padding-bottom: 20px;}
+	.section6{width: 100%;padding-right: 0;border: 0;}
+	.section6 li{width: 25%;;height: 130px;float: left;}
+	.section6 li a{width: 100%;height: 50px;line-height:50px;padding-top: 80px;font-size: 20px;text-align: center;padding-left: 0;}
+	.figure6{width: 100%;padding-left: 0;padding-right: 0;}
+	.figure6 img{display: block;height: 120px;width: 100%;}
+	.section6 li:nth-of-type(7) a span{display: none;}
+	.section6 li:hover{border-bottom:3px solid transparent;}
+	.section6 li:nth-of-type(3){border-bottom:3px solid #FA9634 ;}
+	.section6 li:nth-of-type(1) a{background: url(../img/service_03.jpg) no-repeat center;}
+	.section6 li:nth-of-type(2) a{background: url(../img/service_05.jpg) no-repeat center;}
+	.section6 li:nth-of-type(3) a{background: url(../img/service_09.jpg) no-repeat center;}
+	.section6 li:nth-of-type(4) a{background: url(../img/service_10.jpg) no-repeat center;}
+	.section6 li:nth-of-type(2):hover a{background: url(../img/service_05.jpg) no-repeat center;}
+	.section6 li:nth-of-type(1):hover a{background: url(../img/service_03.jpg) no-repeat center;}
+	.section6 li:nth-of-type(4):hover a{background: url(../img/service_10.jpg) no-repeat center;}
+	.figure6 P{text-indent: 30px;}
+	.figure6 p .span2{display: block;}
+}
+@media only screen and (max-width:480px ) {
+	.min_section6{width: 92%;margin: 0 auto;display: flex;flex-wrap: wrap;padding-top: 0;padding-bottom: 20px;}
+	.section6{width: 100%;padding-right: 0;border: 0;}
+	.section6 li{width: 25%;;height: 110px;float: left;}
+	.section6 li a{width: 100%;height: 40px;line-height:40px;padding-top: 70px;font-size: 14px;text-align: center;
+	padding-left: 0;font-weight: normal;}
+	.figure6{width: 100%;padding-left: 0;padding-right: 0;}
+	.figure6 img{display: block;height: 120px;width: 100%;}
+	.section6 li a span{display: none;}
+	.section6 li:hover{border-bottom:3px solid transparent;}
+	.section6 li:nth-of-type(3){border-bottom:3px solid #FA9634 ;}
+	.section6 li:nth-of-type(1) a{background: url(../img/service_03.jpg) no-repeat center;}
+	.section6 li:nth-of-type(2) a{background: url(../img/service_05.jpg) no-repeat center;}
+	.section6 li:nth-of-type(3) a{background: url(../img/service_09.jpg) no-repeat center;}
+	.section6 li:nth-of-type(4) a{background: url(../img/service_10.jpg) no-repeat center;}
+	.section6 li:nth-of-type(2):hover a{background: url(../img/service_05.jpg) no-repeat center;}
+	.section6 li:nth-of-type(1):hover a{background: url(../img/service_03.jpg) no-repeat center;}
+	.section6 li:nth-of-type(4):hover a{background: url(../img/service_10.jpg) no-repeat center;}
+	.figure2 P{text-indent: 30px;}
+	.figure6 p .span3{display: block;}
+	.figure6 p .span2{display: block;}
+}

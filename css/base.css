@@ -1,0 +1,17 @@
+*{margin:0; padding:0;}			
+ul,li,dl,dd,dt,h1,h2,h3,h4,h5,h6,label,form,header,footer,nav,section,aside,
+dialog,figure,figcaption,hgroup,article{display: block;}
+ul{list-style:none}
+.clearfix:after{display:block; height:0; clear:both; content:'.'; visibility:hidden;}
+.ellipsis{
+white-space: nowrap;/*空白不换行*/
+overflow:hidden;/*溢出隐藏*/
+text-overflow:ellipsis;/*显示省略号*/
+}
+a{text-decoration:none;}
+body{font-family: "Hiragino Sans GB","Hiragino Sans GBW3","Microsoft Yahei",STHeiti,SimSun,helvetica,arial,
+sans-serif;}	
+@media only screen and (max-width:480px ) {
+	p{font-family: "宋体";}
+	
+}
